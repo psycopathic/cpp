@@ -11,7 +11,7 @@ using namespace std;
 int equalizeArray(vector<int> arr) {
     vector<int>repeat;
     int count = 0;
-    pair<int,int>res;
+    // pair<int,int>res;
     sort(arr.begin(),arr.end());
     
     for(int i=0;i<arr.size();i++){
